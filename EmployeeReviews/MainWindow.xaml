@@ -7,12 +7,30 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="900
 		">
-	<Grid Margin="0,0,-6.333,-0.333">
+	<Grid Margin="0,0,-6.667,-29.333">
 
 		<Label x:Name="DeptLabel" Content="Dept Name:" HorizontalAlignment="Left" Margin="38,28,0,0" VerticalAlignment="Top"/>
-		<TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="38,59,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="136"/>
-		<Button x:Name="DeptAdd" Content="Add" HorizontalAlignment="Left" Margin="116,31,0,0" VerticalAlignment="Top" Width="58"/>
-		<ListBox x:Name="DeptListbox" HorizontalAlignment="Left" Height="208" Margin="30,96,0,0" VerticalAlignment="Top" Width="144"/>
+		<TextBox x:Name="textBox" HorizontalAlignment="Left" Height="23" Margin="38,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="136"/>
+		<Button x:Name="DeptAdd" Content="Add" HorizontalAlignment="Left" Margin="116,31,0,0" VerticalAlignment="Top" Width="45"/>
+		
+		<ListBox x:Name="DepartmentList" HorizontalAlignment="Left" Height="208" Margin="30,96,0,0" VerticalAlignment="Top" Width="144"/>
+		<Label x:Name="currDept" Content="Curr Dept Selected" HorizontalAlignment="Left" Margin="221,55,0,0" VerticalAlignment="Top" Width="130"/>
+		<ListBox x:Name="EmployeeList" HorizontalAlignment="Left" Height="208" Margin="212,96,0,0" VerticalAlignment="Top" Width="161"/>
+		<Label x:Name="EmpNameLbl" Content="Name:" HorizontalAlignment="Left" Margin="400,86,0,0" VerticalAlignment="Top"/>
+		<Label x:Name="EmpLabel" Content="Employee Info:" HorizontalAlignment="Left" Margin="400,55,0,0" VerticalAlignment="Top" Width="90"/>
+		<TextBox x:Name="EmpName" HorizontalAlignment="Left" Height="23" Margin="400,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<Label x:Name="EmpEmailLbl" Content="Email:" HorizontalAlignment="Left" Margin="403,140,0,0" VerticalAlignment="Top"/>
+		<TextBox x:Name="EmpEmail" HorizontalAlignment="Left" Height="23" Margin="403,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<Label x:Name="EmpPhoneLbl" Content="Phone:" HorizontalAlignment="Left" Margin="403,194,0,0" VerticalAlignment="Top"/>
+		<TextBox x:Name="EmpPhone" HorizontalAlignment="Left" Height="23" Margin="403,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<Label x:Name="EmpSalaryLbl" Content="Salary:" HorizontalAlignment="Left" Margin="405,248,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.448,0.459"/>
+		<TextBox x:Name="EmpSalary" HorizontalAlignment="Left" Height="23" Margin="405,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+		<Label x:Name="EmpReviewLbl" Content="Last Review:" HorizontalAlignment="Left" Margin="598,96,0,0" VerticalAlignment="Top"/>
+		<Label x:Name="SatisfactoryLbl" Content="Satisfactory: " HorizontalAlignment="Left" Margin="598,127,0,0" VerticalAlignment="Top"/>
+		<Label x:Name="SatisfacoryAnswer" Content="Yes" HorizontalAlignment="Left" Margin="690,127,0,0" VerticalAlignment="Top"/>
+		<Label x:Name="ReviewNotesLbl" Content="Notes:" HorizontalAlignment="Left" Margin="598,161,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.405,-0.245"/>
+		<Button x:Name="EmpAddBtn" Content="Add" HorizontalAlignment="Left" Margin="495,55,0,0" VerticalAlignment="Top" Width="37" RenderTransformOrigin="-0.168,0.289"/>
+		<TextBox x:Name="ReviewNotes" HorizontalAlignment="Left" Height="111" Margin="607,186,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="233"/>
 
 	</Grid>
 </Window>

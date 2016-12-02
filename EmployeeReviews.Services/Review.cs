@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EmployeeReviews.Services
 {
-	class Reviews
+	class Review
 	{
 		public string ReviewNotes { get; set; }
 		public bool Satisfactory { get; set; }

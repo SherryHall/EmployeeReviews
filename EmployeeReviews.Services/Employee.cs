@@ -13,6 +13,6 @@ namespace EmployeeReviews.Services
 		public string EmpEmail { get; set; }
 		public double EmpSalary { get; set; }
 
-		public Reviews EmpReview { get; set; } = new Reviews();
+		public Review EmpReview { get; set; } = new Review();
 	}
 }

@@ -8,5 +8,7 @@ namespace EmployeeReviews.Services
 {
 	class Company
 	{
+		public string CompanyName;
+		public List<Department> Departments { get; set; } = new List<Department>();
 	}
 }
