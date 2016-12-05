@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace EmployeeReviews.Services
 {
-    public class Department
-    {
+	public class Department
+	{
+		public Guid DeptId { get; set; } = Guid.NewGuid();
 		public string DeptName;
 		public List<Employee> DeptEmployees { get; set; } = new List<Employee>();
+
+
 	}
 
 

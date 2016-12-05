@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace EmployeeReviews.Services
 {
-	class Employee
+	public class Employee
 	{
 		public Guid EmpId { get; set; } = Guid.NewGuid();
 		public string EmpName { get; set; }
 		public string EmpEmail { get; set; }
+		public string EmpPhone { get; set; }
 		public double EmpSalary { get; set; }
 
 		public Review EmpReview { get; set; } = new Review();
